@@ -1,0 +1,3 @@
+{
+	"src/**/*.ts": ["npm prettier --write \"./src/**/*.ts\""]
+}
