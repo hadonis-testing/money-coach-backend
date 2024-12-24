@@ -56,3 +56,10 @@ Examples:
 - `delete: delete a function`
 
 > **Note**: Please follow the conventions to keep the commit history clean and easy to read.
+
+## Git Workflows
+
+- **main**: The production-ready branch.
+- **dev**: The branch for the latest development changes.
+- **feature/\***: The branch for developing a new feature.
+- **fix/\***: The branch for fixing a bug.
