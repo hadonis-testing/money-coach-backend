@@ -1,0 +1,29 @@
+name: Commit message validation
+
+on:
+  push:
+    branches:
+      - feature/*
+      - fix/*
+
+jobs:
+  validate:
+    name: Validate commit messages
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20.17.0
+
+      - name: Install dev dependencies
+        run: |
+          npm install --only=dev
+
+      - name: Validate commit messages
+        run: |
+          npx commitlint --last --verbose
