@@ -22,8 +22,8 @@ jobs:
 
       - name: Install dev dependencies
         run: |
-          npm install --only=dev
+          yarn install --frozen-lockfile
 
       - name: Validate commit messages
         run: |
-          npx commitlint --last --verbose
+          yarn commitlint --last --verbose

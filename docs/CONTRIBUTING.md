@@ -20,8 +20,9 @@
 
 - Environment: `Node.js v20.17.0`
   - You can download it from [here](https://nodejs.org/en/download/).
-- Package manager: `npm`
-  - To install the latest, run `npm i -g npm` after installing Node.js.
+- Package manager: `yarn`
+  - To install it, run `npm i -g yarn` after installing Node.js.
+  - Make sure install `yarn v1` - aka `yarn classic`.
 - Code editor: `Visual Studio Code`
   - You can download it from [here](https://code.visualstudio.com/).
 
