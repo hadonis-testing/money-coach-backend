@@ -1,6 +1,6 @@
-# Finance Investment Backend
+# Money Coach Backend
 
-> Backend for Finance Investment App
+> Backend for Money Coach App
 
 ## Development
 

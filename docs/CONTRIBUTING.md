@@ -1,12 +1,12 @@
-# fib's Development Guidelines
+# mcb's Development Guidelines
 
-> This document contains the guidelines for developing the Finance Investment Backend.
+> This document contains the guidelines for developing the Money Coach Backend.
 
-> **Important**: `fib` stands for Finance Investment Backend.
+> **Important**: `mcb` stands for Money Coach Backend.
 
 ## Table of Contents
 
-- [fib's Development Guidelines](#fibs-development-guidelines)
+- [mcb's Development Guidelines](#mcbs-development-guidelines)
   - [Table of Contents](#table-of-contents)
   - [Requirements](#requirements)
     - [Tools](#tools)

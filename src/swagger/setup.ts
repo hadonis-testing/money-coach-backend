@@ -4,8 +4,8 @@ import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
 
 export const setupSwagger = (app: INestApplication<any>) => {
 	const config = new DocumentBuilder()
-		.setTitle('Finance Investment API documentation')
-		.setDescription('Backend for Finance Investment App.')
+		.setTitle('Money Coach API documentation')
+		.setDescription('Backend for Money Coach App.')
 		.setVersion(version)
 		.addBearerAuth()
 		.build();
